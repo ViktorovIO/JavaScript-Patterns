@@ -1,0 +1,24 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "descr",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "viktorovio",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viktorovio/javascript.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "bugs": {
+    "url": "https://github.com/viktorovio/javascript/issues"
+  },
+  "homepage": "https://github.com/viktorovio/javascript#readme"
+}
