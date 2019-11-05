@@ -8,3 +8,28 @@ body {
   border: 1px solid #000;
   background-color: #fff;
 }
+
+.menu ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 20px;
+  display: none;
+}
+
+.menu .title:hover {
+  cursor: pointer;
+}
+
+.menu .title::before {
+  content: '▶ ';
+  font-size: 80%;
+  color: green;
+}
+
+.menu.open .title::before {
+  content: '▼ ';
+}
+
+.menu.open ul {
+  display: block;
+}
